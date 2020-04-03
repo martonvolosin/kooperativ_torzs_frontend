@@ -8,7 +8,7 @@ function App() {
   const { t } = useTranslation();
   return (
     <Provider store={store}>
-      <div>
+      <div className="text-success">
         <h1>{t('test')}</h1>
       </div>
     </Provider>

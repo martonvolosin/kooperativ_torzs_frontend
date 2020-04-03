@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './i18n/i18n';
+import './styles/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
