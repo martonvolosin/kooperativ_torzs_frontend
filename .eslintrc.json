@@ -1,0 +1,79 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "promise",
+    "filenames",
+    "switch-case", 
+    "prettier"],
+  "globals": {
+    "window": true,
+    "fetch": true,
+    "FormData": true,
+    "navigator": true
+  },
+  "rules": {
+    // Prettier
+  "prettier/prettier": [2, 
+    { 
+      "singleQuote": true,
+      "trailingComma": "all",
+      "tabWidth": 2
+    }
+  ],
+    "promise/no-nesting": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-new-statics": "error",
+    "switch-case/no-case-curly": "error",
+    "import/no-named-as-default": 0,
+    "import/extensions": [2, { "ignore": ["^@"] }],
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, { "ignore": ["^@"] }],
+    "import/prefer-default-export": 0,
+    "filenames/match-exported": 2,
+    "jsx-a11y/href-no-hash": 0,
+    "radix": ["error", "as-needed"],
+    "no-useless-constructor": ["error"],
+    "quotes": ["error", "single"],
+    "no-use-before-define": ["error", { "variables": false }],
+    "no-undef": 0,
+    "no-underscore-dangle": "off",
+    "linebreak-style": 0,
+    "no-restricted-globals": "off",
+    "no-console": "warn",
+    "camelcase": 1,
+    "no-shadow": 0,
+    "no-plusplus": 0,
+    "no-sparse-arrays": 0,
+    "react/button-has-type": 0,
+    "react/no-did-mount-set-state": 0,
+    "react/no-did-update-set-state": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-used-expressions": 0,
+    "react/destructuring-assignment": 0,
+    "react/prop-types": 0,
+    "react/forbid-prop-types": 0,
+    "react/sort-comp": [
+      1,
+      {
+        "order": ["static-methods", "lifecycle", "everything-else", "rendering"],
+        "groups": {
+          "rendering": ["/^render.+$/", "render"]
+        }
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js"]
+      }
+    }
+  }
+}
