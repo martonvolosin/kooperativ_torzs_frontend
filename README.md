@@ -1,5 +1,37 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before you start
+
+Install plugins: eslint, Prettier - Code formatter (4.0.0). 
+
+Vscode settings: Open in json
+
+"editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+        }
+      },
+      "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+        }
+      },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+        }
+      },
+      "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+        }
+      },
+
+yarn install 
+
 ## Available Scripts
 
 In the project directory, you can run:
