@@ -1,13 +1,15 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+import { useTranslation } from 'react-i18next';
 
 import { store } from './store';
 
 function App() {
+  const { t } = useTranslation();
   return (
     <Provider store={store}>
       <div>
-        <h1>Szomszédtáp</h1>
+        <h1>{t('test')}</h1>
       </div>
     </Provider>
   );
