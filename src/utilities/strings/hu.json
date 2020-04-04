@@ -12,5 +12,12 @@
         "forgotPassword": "Elfelejtett jelszó",
         "login": "Bejelentkezés",
         "noProfile": "Nincs még profilja? Regisztráljon",
-        "register": "Regisztráció"
+        "register": "Regisztráció",
+        "approve": "Engedélyezem",
+        "back": "Vissza",
+        "registrationLocationTitle": "Az ön helyzetének felhasználása:",
+        "registrationLocationText_1": "Ez a weboldal az ön helyzetét figyelembe véve próbálja önt olyan felhasználókkal összekötni, akikkel bizonyára közös nevezőre tudnak jutni, segíteni tudnak egymáson.<br/> A kapcsolatfelvétel elősegítésén kívül semmi másra nem használjuk az ön helyzetét, valamint azt semmilyen körülmények közt nem adjuk ki harmadik fél számára.",
+        "registrationLocationText_2": "Az engedélyezés gombra kattintva a böngésző kérni fogja, hogy engedje az ön helyzetének megtekintését. Kérjük engedélyezze, amennyiben használni kívánja az oldalt",
+        "registrationLocationText_3": "Alternatívaként letöltheti ezt a dokumentumot, amivel az oldal használata nélkül is tud segítséget kérni vagy felajánlani.",
+        "registrationLocationText_4": "Az engedélyezéssel véglegesíti a regisztrációs folyamatot, ezután aktiválódik a profil."
 }
