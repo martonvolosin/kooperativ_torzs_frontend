@@ -49,6 +49,7 @@
         "deleteModalTitle": "Biztos, hogy törölni akarja a profilját?",
         "deleteModalText": "Figyelem! Minden eddig mentett adata el fog veszni, a regisztrációját a továbbiakban nem tudja használni!",
         "cancel": "Mégse",
-        "confirmDelete": "Törlöm."
+        "confirmDelete": "Törlöm.",
+        "name": "Teljes név"
 }
 
