@@ -5,5 +5,12 @@
         "doYouChange": "Elcserélné a polcon maradt termékeit másra?",
         "doYouShare": "Felajánlaná segítségét?",
         "stayTogether": "Tartsunk össze, és csatlakozzon ön is a lakóközösség éléskamrájához, hogy megmutassuk a közösség erejét!",
-        "noShameToAsk": "Segíteni és segítséget kérni nem szégyen!"
+        "noShameToAsk": "Segíteni és segítséget kérni nem szégyen!",
+        "email": "E-mail cím",
+        "emailPlaceholder": "email@pelda.com",
+        "password": "Jelszó",
+        "forgotPassword": "Elfelejtett jelszó",
+        "login": "Bejelentkezés",
+        "noProfile": "Nincs még profilja? Regisztráljon",
+        "register": "Regisztráció"
 }
