@@ -1,1 +1,1 @@
-export * from './loginWrapper';
+export * from './login-wrapper';

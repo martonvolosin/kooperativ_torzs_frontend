@@ -1,5 +1,6 @@
 import React from 'react';
+import { LoginWrapper } from '../../components';
 
-const Login = () => <div className="test">Login</div>;
+const Login = () => <LoginWrapper />;
 
 export { Login };
