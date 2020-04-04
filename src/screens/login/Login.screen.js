@@ -4,6 +4,8 @@ import { Button, Form } from 'react-bootstrap';
 
 import { useHistory } from 'react-router-dom';
 import { LoginWrapper } from '../../components';
+import facebook from '../../assets/images/facebook.svg';
+import google from '../../assets/images/google.svg';
 
 const Login = () => {
   const { t } = useTranslation();
@@ -55,6 +57,11 @@ const Login = () => {
           {t('register')}
         </Button>
       </Form>
+      <div className="socialButtonContainer row no-gutters justify-content-between w-25">
+        <p className="text-muted socialText">{t('socialText')}</p>
+        <img alt="facebook" className="col-sm-5" src={facebook} />
+        <img alt="google" className="col-sm-5" src={google} />
+      </div>
     </div>
   );
 
