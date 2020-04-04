@@ -21,11 +21,23 @@ const authFetchError = error => ({
 });
 
 // Public action creators
-export const register = (email, password) => async dispatch => {
+export const register = ({
+  email,
+  password,
+  name,
+  phoneNumber,
+  location,
+}) => async dispatch => {
   dispatch(authFetchStart());
   try {
-    const res = await Client.register(email, password);
-    dispatch(authFetchSuccess(res.user.uid));
+    const res = await Client.register({
+      email,
+      password,
+      name,
+      phoneNumber,
+      location,
+    });
+    dispatch(authFetchSuccess(res));
   } catch (error) {
     dispatch(authFetchError(error.message));
   }
