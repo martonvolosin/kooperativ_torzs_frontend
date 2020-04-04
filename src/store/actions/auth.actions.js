@@ -35,7 +35,8 @@ export const login = (email, password) => async dispatch => {
   dispatch(authFetchStart());
   try {
     const res = await Client.login(email, password);
-    dispatch(authFetchSuccess({ uid: res.user.uid, accessToken: res.user.xa }));
+    const accessToken = await res.user.getIdToken();
+    dispatch(authFetchSuccess({ uid: res.user.uid, accessToken }));
   } catch (error) {
     dispatch(authFetchError(error.message));
   }
