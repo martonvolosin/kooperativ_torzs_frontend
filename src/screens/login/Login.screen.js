@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button, Form } from 'react-bootstrap';
 
@@ -11,19 +11,26 @@ import {
   isValidPassword,
 } from '../../utilities/validation.utils';
 
-const Login = () => {
+const Login = ({ login, accessToken }) => {
   const { t } = useTranslation();
   const history = useHistory();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  useEffect(() => {
+    if (accessToken) {
+      history.push('/home');
+    }
+  }, [accessToken]);
+
   const handleSubmit = e => {
     e.preventDefault();
+    login(email, password);
   };
 
   const handleForgotPassword = () => {
-    console.log('forgot password');
+    // TODO: Handle forgotten password
   };
 
   const isSubmitDisabled = !isValidEmail(email) || !isValidPassword(password);

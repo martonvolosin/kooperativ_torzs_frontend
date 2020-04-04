@@ -4,7 +4,9 @@ import { bindActionCreators } from 'redux';
 import { Login } from './Login.screen';
 import { login } from '../../store/actions';
 
-const mapStateToProps = () => ({});
+const mapStateToProps = ({ auth }) => ({
+  accessToken: auth.accessToken,
+});
 
 const mapDispatchToProps = dispatch => {
   return bindActionCreators({ login }, dispatch);

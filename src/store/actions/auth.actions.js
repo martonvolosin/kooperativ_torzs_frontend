@@ -10,9 +10,9 @@ const authFetchStart = () => ({
   type: AUTH_FETCH_START,
 });
 
-const authFetchSuccess = uid => ({
+const authFetchSuccess = payload => ({
   type: AUTH_FETCH_SUCCESS,
-  uid,
+  payload,
 });
 
 const authFetchError = error => ({
@@ -35,7 +35,7 @@ export const login = (email, password) => async dispatch => {
   dispatch(authFetchStart());
   try {
     const res = await Client.login(email, password);
-    dispatch(authFetchSuccess(res.user.uid));
+    dispatch(authFetchSuccess({ uid: res.user.uid, accessToken: res.user.xa }));
   } catch (error) {
     dispatch(authFetchError(error.message));
   }

@@ -8,6 +8,7 @@ const INITIAL_STATE = {
   loading: false,
   error: null,
   uid: null,
+  accessToken: null,
 };
 
 export default (state = INITIAL_STATE, action) => {
@@ -23,7 +24,7 @@ export default (state = INITIAL_STATE, action) => {
         ...state,
         loading: false,
         error: null,
-        uid: action.uid,
+        ...action.payload,
       };
     case AUTH_FETCH_ERROR:
       return {
