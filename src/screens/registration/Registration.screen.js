@@ -23,7 +23,12 @@ const Registration = () => {
 
   const handleNext = e => {
     e.preventDefault();
-    history.push('/registration-location');
+    history.push('/registration-location', {
+      email,
+      password,
+      name,
+      phoneNumber,
+    });
   };
 
   const renderModal = () => {
