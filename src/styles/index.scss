@@ -4,12 +4,5 @@
 
 // Components styles
 @import "./common.scss";
-@import "./AddNewListingScreen/index.scss";
-@import "./ChatScreen/index.scss";
-@import "./LocationRegistrationScreen/index.scss";
-@import "./LoginScreen/index.scss";
-@import "./MainDetailsScreen/index.scss";
-@import "./MainListScreen/index.scss";
-@import "./ProfileScreen/index.scss";
-@import "./ReviewScreen/index.scss";
-@import "./UserRegistrationScreen/index.scss";
+@import "../components/loginWrapper/styles.scss";
+@import "../screens/LoginScreen/styles.scss";
