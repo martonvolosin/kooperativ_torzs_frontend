@@ -1,4 +1,5 @@
 {
+        "loremIpsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dui porttitor, bibendum mi non, dapibus arcu. Fusce convallis iaculis ex sed porttitor. Vivamus vulputate mollis lacus eget venenatis. Nullam porttitor purus sed metus lobortis maximus. Morbi sit amet libero at felis volutpat rutrum eu sed lacus. Nunc metus nisl, viverra sagittis metus ac, tincidunt gravida neque. Mauris sit amet elementum elit. Aenean rutrum, eros vel tincidunt laoreet, elit enim sagittis elit, at blandit nisi justo quis mi. Sed ac justo sapien. Nam malesuada leo in fringilla rhoncus. Quisque lobortis augue a ipsum efficitur, ac porttitor est finibus. Duis ac libero a nisl finibus faucibus id bibendum mauris. Pellentesque arcu eros, consequat semper aliquet varius, volutpat ut magna. Vivamus hendrerit enim erat, nec mollis mauris congue id. Cras quis neque tincidunt, sagittis orci ac, varius turpis. Duis vitae consectetur tellus. Integer vitae tristique est. Curabitur vestibulum felis a augue euismod bibendum. In et nulla bibendum, lacinia dui eget, congue quam. Praesent turpis enim, rhoncus quis ornare ac, aliquam sed sapien. Aliquam at vestibulum urna, a suscipit libero. Vivamus iaculis erat ultrices purus vestibulum, ac sodales metus vehicula. Fusce pellentesque, felis vel blandit pharetra, tortor urna blandit enim, eu maximus sapien lacus ut ligula. Proin at blandit tellus. Vivamus neque lectus, tristique sit amet bibendum eu, faucibus at nunc. Curabitur bibendum urna at justo dictum, sit amet eleifend lectus elementum. Nunc elementum scelerisque ligula et porta. Nunc molestie, mi vitae semper mattis, arcu tellus luctus augue, sit amet elementum nisl mauris eget felis. Praesent tincidunt velit non sapien aliquet fringilla. Maecenas venenatis nisl commodo ligula eleifend scelerisque. Duis ac ornare magna. Proin congue velit sed elit varius mattis. Ut consequat luctus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dui porttitor, bibendum mi non, dapibus arcu. Fusce convallis iaculis ex sed porttitor. Vivamus vulputate mollis lacus eget venenatis. Nullam porttitor purus sed metus lobortis maximus. Morbi sit amet libero at felis volutpat rutrum eu sed lacus. Nunc metus nisl, viverra sagittis metus ac, tincidunt gravida neque. Mauris sit amet elementum elit. Aenean rutrum, eros vel tincidunt laoreet, elit enim sagittis elit, at blandit nisi justo quis mi. Sed ac justo sapien. Nam malesuada leo in fringilla rhoncus. Quisque lobortis augue a ipsum efficitur, ac porttitor est finibus. Duis ac libero a nisl finibus faucibus id bibendum mauris. Pellentesque arcu eros, consequat semper aliquet varius, volutpat ut magna. Vivamus hendrerit enim erat, nec mollis mauris congue id. Cras quis neque tincidunt, sagittis orci ac, varius turpis. Duis vitae consectetur tellus. Integer vitae tristique est. Curabitur vestibulum felis a augue euismod bibendum. In et nulla bibendum, lacinia dui eget, congue quam. Praesent turpis enim, rhoncus quis ornare ac, aliquam sed sapien. Aliquam at vestibulum urna, a suscipit libero. Vivamus iaculis erat ultrices purus vestibulum, ac sodales metus vehicula. Fusce pellentesque, felis vel blandit pharetra, tortor urna blandit enim, eu maximus sapien lacus ut ligula. Proin at blandit tellus. Vivamus neque lectus, tristique sit amet bibendum eu, faucibus at nunc. Curabitur bibendum urna at justo dictum, sit amet eleifend lectus elementum. Nunc elementum scelerisque ligula et porta. Nunc molestie, mi vitae semper mattis, arcu tellus luctus augue, sit amet elementum nisl mauris eget felis. Praesent tincidunt velit non sapien aliquet fringilla. Maecenas venenatis nisl commodo ligula eleifend scelerisque. Duis ac ornare magna. Proin congue velit sed elit varius mattis. Ut consequat luctus orci.",
         "title": "Kedves Felhasználó",
         "howToUse": "Placeholder, ide kéne írni hogy mire lehet használni/hogyan?",
         "doYouNeed": "Szüksége van alapvető élelmiszerre?",
@@ -14,10 +15,21 @@
         "noProfile": "Nincs még profilja? Regisztráljon",
         "register": "Regisztráció",
         "approve": "Engedélyezem",
-        "back": "Vissza",
         "registrationLocationTitle": "Az ön helyzetének felhasználása:",
         "registrationLocationText_1": "Ez a weboldal az ön helyzetét figyelembe véve próbálja önt olyan felhasználókkal összekötni, akikkel bizonyára közös nevezőre tudnak jutni, segíteni tudnak egymáson.<br/> A kapcsolatfelvétel elősegítésén kívül semmi másra nem használjuk az ön helyzetét, valamint azt semmilyen körülmények közt nem adjuk ki harmadik fél számára.",
         "registrationLocationText_2": "Az engedélyezés gombra kattintva a böngésző kérni fogja, hogy engedje az ön helyzetének megtekintését. Kérjük engedélyezze, amennyiben használni kívánja az oldalt",
         "registrationLocationText_3": "Alternatívaként letöltheti ezt a dokumentumot, amivel az oldal használata nélkül is tud segítséget kérni vagy felajánlani.",
         "registrationLocationText_4": "Az engedélyezéssel véglegesíti a regisztrációs folyamatot, ezután aktiválódik a profil."
+        "firstName": "Keresztnév",
+        "lastName": "Vezetéknév",
+        "optionalPhone": "Telefon (opcionális)",
+        "phonePlaceholder": "+36001234567",
+        "passwordAgain": "Jelszó újra",
+        "next": "Tovább",
+        "back": "Vissza",
+        "termOfUseBlockOne": "A felhasználási feltételeket elolvastam és elfogadom",
+        "termOfUse": "Felhasználási feltételek",
+        "accept": "Megértettem",
+        "socialText": "Facebook vagy Google profiljával is beléphet:"
 }
+

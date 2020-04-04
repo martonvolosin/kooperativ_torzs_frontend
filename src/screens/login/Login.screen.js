@@ -4,6 +4,8 @@ import { Button, Form } from 'react-bootstrap';
 
 import { useHistory } from 'react-router-dom';
 import { LoginWrapper } from '../../components';
+import facebook from '../../assets/images/facebook.svg';
+import google from '../../assets/images/google.svg';
 
 const Login = () => {
   const { t } = useTranslation();
@@ -23,11 +25,15 @@ const Login = () => {
       <Form className="w-25" onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>{t('email')}</Form.Label>
-          <Form.Control type="email" placeholder={t('emailPlaceholder')} />
+          <Form.Control
+            required
+            type="email"
+            placeholder={t('emailPlaceholder')}
+          />
         </Form.Group>
         <Form.Group controlId="formBasicPassword">
           <Form.Label>{t('password')}</Form.Label>
-          <Form.Control type="password" />
+          <Form.Control required stype="password" />
           <Button
             variant="link"
             onClick={handleForgotPassword}
@@ -51,6 +57,11 @@ const Login = () => {
           {t('register')}
         </Button>
       </Form>
+      <div className="socialButtonContainer row no-gutters justify-content-between w-25">
+        <p className="text-muted socialText">{t('socialText')}</p>
+        <img alt="facebook" className="col-sm-5" src={facebook} />
+        <img alt="google" className="col-sm-5" src={google} />
+      </div>
     </div>
   );
 
