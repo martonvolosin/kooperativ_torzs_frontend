@@ -30,6 +30,17 @@
         "termOfUseBlockOne": "A felhasználási feltételeket elolvastam és elfogadom",
         "termOfUse": "Felhasználási feltételek",
         "accept": "Megértettem",
-        "socialText": "Facebook vagy Google profiljával is beléphet:"
+        "socialText": "Facebook vagy Google profiljával is beléphet:",
+        "profile": "Profilom",
+        "addItem": "Új hozzáadása",
+        "homeTitle": "Kéréseim és felajánlásaim",
+        "details": "Részletek",
+        "close": "Bezárás",
+        "contactUser": "Felveszem a kapcsolatot",
+        "headerRequest": "Felajánlás/Kérés",
+        "headerCategory": "Kategória",
+        "headerName": "Megnevezés",
+        "headerStatus": "Státusz",
+        "headerMatch": "Találatok száma"
 }
 
