@@ -8,8 +8,8 @@ const RegistrationSuccess = () => {
     const { t } = useTranslation();
     const history = useHistory();
     const handleSubmit = e => {
-        //add main when ready / check login state
-        history.push('/');
+        e.preventDefault();
+        history.push('/home');
     };
 
     const renderRegistrationSuccess = () => (
