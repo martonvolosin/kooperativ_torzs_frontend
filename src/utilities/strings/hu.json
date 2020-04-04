@@ -19,7 +19,7 @@
         "registrationLocationText_1": "Ez a weboldal az ön helyzetét figyelembe véve próbálja önt olyan felhasználókkal összekötni, akikkel bizonyára közös nevezőre tudnak jutni, segíteni tudnak egymáson.<br/> A kapcsolatfelvétel elősegítésén kívül semmi másra nem használjuk az ön helyzetét, valamint azt semmilyen körülmények közt nem adjuk ki harmadik fél számára.",
         "registrationLocationText_2": "Az engedélyezés gombra kattintva a böngésző kérni fogja, hogy engedje az ön helyzetének megtekintését. Kérjük engedélyezze, amennyiben használni kívánja az oldalt",
         "registrationLocationText_3": "Alternatívaként letöltheti ezt a dokumentumot, amivel az oldal használata nélkül is tud segítséget kérni vagy felajánlani.",
-        "registrationLocationText_4": "Az engedélyezéssel véglegesíti a regisztrációs folyamatot, ezután aktiválódik a profil."
+        "registrationLocationText_4": "Az engedélyezéssel véglegesíti a regisztrációs folyamatot, ezután aktiválódik a profil.",
         "firstName": "Keresztnév",
         "lastName": "Vezetéknév",
         "optionalPhone": "Telefon (opcionális)",
@@ -30,6 +30,15 @@
         "termOfUseBlockOne": "A felhasználási feltételeket elolvastam és elfogadom",
         "termOfUse": "Felhasználási feltételek",
         "accept": "Megértettem",
-        "socialText": "Facebook vagy Google profiljával is beléphet:"
+        "socialText": "Facebook vagy Google profiljával is beléphet:",
+        "registrationSuccess": "Köszönjük, a regisztráció sikeres volt!",
+        "registrationSuccessText_1": "A Nemzeti Népegészségügyi Központ tanácsait alapul véve fokozottan kérjük önöket az alábbi pontok betartására:",
+        "registrationSuccessList_1": "Ha az élelmiszer vagy a csomagolása megmosható, mosogatószerrel öblítsék le azt.",
+        "registrationSuccessList_2": "A csomagot amelyet át fog adni, kesztyűben és maszkban készítse össze, illetve",
+        "registrationSuccessList_3": "a közös termekben tartózkodáskor mindig használja ezeket a védőeszközöket. A kilincseket igyekezzen könyökkel vagy alkarral kinyitni, ha lehetséges.",
+        "registrationSuccessList_4": "Ha megoldható, kerüljék el a személyes találkozást: Egyezzenek meg egy pontos helyben és időpontban, ahol az összecsomagolt élelmiszert átveheti.",
+        "registrationSuccessList_4_e": "Lehet ez egy lépcsőházban felakasztva; vagy bokorra, faágra akasztva.",
+        "registrationSuccessList_5": "Amennyiben a terméket nem tudta megmosni, ezt jelezze a másik lakó felé.",
+        "registrationSuccessText_2": "Kérjük, hogy a közölt higiéniai és biztonsági tanácsainkat tartsa be az Ön és közössége érdekében!" 
 }
 
