@@ -1,1 +1,15 @@
+//External imports
 @import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+// Components styles
+@import "./common.scss";
+@import "./AddNewListingScreen/index.scss";
+@import "./ChatScreen/index.scss";
+@import "./LocationRegistrationScreen/index.scss";
+@import "./LoginScreen/index.scss";
+@import "./MainDetailsScreen/index.scss";
+@import "./MainListScreen/index.scss";
+@import "./ProfileScreen/index.scss";
+@import "./ReviewScreen/index.scss";
+@import "./UserRegistrationScreen/index.scss";
