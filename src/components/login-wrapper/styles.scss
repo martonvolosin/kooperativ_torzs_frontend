@@ -1,0 +1,26 @@
+.leftSidePanel {
+    background-image: url('../../assets/images/vegetables.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.whiteBackgroundContainer {
+    color: #000000;
+    margin: 2em;
+    background-color: white;
+    opacity: 0.8;
+
+    .leftSideWrapperTitle {
+        padding: 2em 0 1em 0;
+    }
+    
+    .leftSideWrapperParagraph {
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 1em 1em;
+    }
+    .leftSideWrapperParagraph:last-child {
+        padding-bottom: 2em;
+    }
+}
