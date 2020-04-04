@@ -40,6 +40,16 @@
         "registrationSuccessList_4_e": "Lehet ez egy lépcsőházban felakasztva; vagy bokorra, faágra akasztva.",
         "registrationSuccessList_5": "Amennyiben a terméket nem tudta megmosni, ezt jelezze a másik lakó felé.",
         "registrationSuccessText_2": "Kérjük, hogy a közölt higiéniai és biztonsági tanácsainkat tartsa be az Ön és közössége érdekében!",
+        "fullName": "Teljes név",
+        "oldPassword": "Régi jelszó",
+        "saveProfile": "Módosítások mentése",
+        "logout": "Kijelentkezés",
+        "deleteProfile": "Profil törlése",
+        "myProfile": "Profilom",
+        "deleteModalTitle": "Biztos, hogy törölni akarja a profilját?",
+        "deleteModalText": "Figyelem! Minden eddig mentett adata el fog veszni, a regisztrációját a továbbiakban nem tudja használni!",
+        "cancel": "Mégse",
+        "confirmDelete": "Törlöm.",
         "name": "Teljes név"
 }
 
