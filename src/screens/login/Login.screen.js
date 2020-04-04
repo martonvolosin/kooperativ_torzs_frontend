@@ -23,11 +23,15 @@ const Login = () => {
       <Form className="w-25" onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>{t('email')}</Form.Label>
-          <Form.Control type="email" placeholder={t('emailPlaceholder')} />
+          <Form.Control
+            required
+            type="email"
+            placeholder={t('emailPlaceholder')}
+          />
         </Form.Group>
         <Form.Group controlId="formBasicPassword">
           <Form.Label>{t('password')}</Form.Label>
-          <Form.Control type="password" />
+          <Form.Control required stype="password" />
           <Button
             variant="link"
             onClick={handleForgotPassword}
