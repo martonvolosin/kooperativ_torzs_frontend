@@ -1,5 +1,6 @@
 import React from 'react';
+import { LoginWrapper } from '../../components';
 
-const LoginScreen = () => <>Loginscreen</>;
+const LoginScreen = () => <LoginWrapper />;
 
 export default LoginScreen;

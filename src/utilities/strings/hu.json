@@ -1,3 +1,9 @@
 {
-    "test": "kiscica"
+        "title": "Kedves Felhasználó",
+        "howToUse": "Placeholder, ide kéne írni hogy mire lehet használni/hogyan?",
+        "doYouNeed": "Szüksége van alapvető élelmiszerre?",
+        "doYouChange": "Elcserélné a polcon maradt termékeit másra?",
+        "doYouShare": "Felajánlaná segítségét?",
+        "stayTogether": "Tartsunk össze, és csatlakozzon ön is a lakóközösség éléskamrájához, hogy megmutassuk a közösség erejét!",
+        "noShameToAsk": "Segíteni és segítséget kérni nem szégyen!"
 }
