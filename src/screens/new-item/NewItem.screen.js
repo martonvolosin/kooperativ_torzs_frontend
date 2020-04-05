@@ -19,7 +19,7 @@ const UNITS = [
 
 const NewItem = () => {
   const { t } = useTranslation();
-  const { history } = useHistory();
+  const history = useHistory();
 
   const [category, setCategory] = useState();
   const [categoryName, setCategoryName] = useState();
@@ -139,7 +139,11 @@ const NewItem = () => {
           <Button variant="primary" type="submit" block>
             {t('next')}
           </Button>
-          <Button variant="secondary" onClick={() => history.push('')} block>
+          <Button
+            variant="secondary"
+            onClick={() => history.push('/home')}
+            block
+          >
             {t('back')}
           </Button>
         </Form>
