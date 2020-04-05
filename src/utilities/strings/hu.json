@@ -50,6 +50,15 @@
         "deleteModalText": "Figyelem! Minden eddig mentett adata el fog veszni, a regisztrációját a továbbiakban nem tudja használni!",
         "cancel": "Mégse",
         "confirmDelete": "Törlöm.",
-        "name": "Teljes név"
+        "name": "Teljes név",
+        "review": "Értékelés",
+        "satisfied_transaction": "Összességében elégedett voltál a partnereddel folytatott tranzakcióval?",
+        "satisfied_quality": "Elégedett voltál a kapott termék(ek) minőségével?",
+        "satisfied_operation": "Könnyen le tudtátok bonyolítani a termékek átadását?",
+        "accept_review": "Igen, elégedett voltam",
+        "deny_review": "Nem, nem voltam elégedett",
+        "accept_operation": "Igen, könnyű volt",
+        "deny_operation": "Nem, nem volt könnyű",
+        "save": "Mentés"
 }
 
