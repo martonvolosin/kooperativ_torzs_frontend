@@ -47,12 +47,12 @@ const Home = () => {
     <Table bordered className="container">
       <thead>
         <tr>
-          <th>#</th>
-          <th>{t('headerRequest')}</th>
-          <th>{t('headerCategory')}</th>
-          <th>{t('headerName')}</th>
-          <th>{t('headerStatus')}</th>
-          <th>{t('headerMatch')}</th>
+          <th colSpan="1">#</th>
+          <th colSpan="1">{t('headerRequest')}</th>
+          <th colSpan="1">{t('headerCategory')}</th>
+          <th colSpan="1">{t('headerName')}</th>
+          <th colSpan="1">{t('headerStatus')}</th>
+          <th colSpan="1">{t('headerMatch')}</th>
         </tr>
       </thead>
       <tbody>{renderTableBody()}</tbody>
