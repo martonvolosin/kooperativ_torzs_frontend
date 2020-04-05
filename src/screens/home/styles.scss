@@ -1,0 +1,10 @@
+@import './components/table-row/styles.scss';
+
+.homeContainer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    .homeButton {
+        margin: 0 1em;
+    }
+}
