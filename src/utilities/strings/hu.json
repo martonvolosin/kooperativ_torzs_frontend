@@ -50,6 +50,7 @@
         "deleteModalText": "Figyelem! Minden eddig mentett adata el fog veszni, a regisztrációját a továbbiakban nem tudja használni!",
         "cancel": "Mégse",
         "confirmDelete": "Törlöm.",
-        "name": "Teljes név"
+        "name": "Teljes név",
+        "guide": "Üdvözlöm a lakóközössége éléskamrájában!\nMiért jó itt lenni?\nLehetősége van kérni, felajánlani és elcserélni alapvető élelmiszereket, de segítő kezet is nyújthat másoknak.\nHogyan?\nEgyszerűen ossza meg, hogy mire van szüksége; és ha egy másik kedves lakó rendelkezik vele; az éléskamra által könnyedén meg tudják szervezni a biztonságos és higiénikus átvétel részleteit. Ebben részletes segítséget nyújtunk Önöknek a használat során.\nSegíteni és segítséget kérni nem szégyen, Mutassák meg, hogy milyen értékes az önzetlen összefogás!"
 }
 

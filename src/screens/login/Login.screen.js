@@ -94,7 +94,7 @@ const Login = ({ login, accessToken }) => {
     </div>
   );
 
-  return <LoginWrapper>{renderLoginForm()}</LoginWrapper>;
+  return <LoginWrapper text={t('guide')}>{renderLoginForm()}</LoginWrapper>;
 };
 
 export { Login };

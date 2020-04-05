@@ -153,7 +153,7 @@ const Registration = () => {
   return (
     <>
       {renderModal()}
-      <LoginWrapper>{renderRegistrationForm()}</LoginWrapper>
+      <LoginWrapper text={t('guide')}>{renderRegistrationForm()}</LoginWrapper>
     </>
   );
 };

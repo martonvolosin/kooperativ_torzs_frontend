@@ -64,7 +64,11 @@ const RegistrationLocation = ({
     </div>
   );
 
-  return <LoginWrapper>{renderRegistrationLocationForm()}</LoginWrapper>;
+  return (
+    <LoginWrapper text={t('guide')}>
+      {renderRegistrationLocationForm()}
+    </LoginWrapper>
+  );
 };
 
 export { RegistrationLocation };
