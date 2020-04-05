@@ -42,6 +42,26 @@
         "headerCategory": "Kategória",
         "headerName": "Megnevezés",
         "headerStatus": "Státusz",
-        "headerMatch": "Találatok száma"
+        "headerMatch": "Találatok száma",
+        "registrationSuccess": "Köszönjük, a regisztráció sikeres volt!",
+        "registrationSuccessText_1": "A Nemzeti Népegészségügyi Központ tanácsait alapul véve fokozottan kérjük önöket az alábbi pontok betartására:",
+        "registrationSuccessList_1": "Ha az élelmiszer vagy a csomagolása megmosható, mosogatószerrel öblítsék le azt.",
+        "registrationSuccessList_2": "A csomagot amelyet át fog adni, kesztyűben és maszkban készítse össze, illetve",
+        "registrationSuccessList_3": "a közös termekben tartózkodáskor mindig használja ezeket a védőeszközöket. A kilincseket igyekezzen könyökkel vagy alkarral kinyitni, ha lehetséges.",
+        "registrationSuccessList_4": "Ha megoldható, kerüljék el a személyes találkozást: Egyezzenek meg egy pontos helyben és időpontban, ahol az összecsomagolt élelmiszert átveheti.",
+        "registrationSuccessList_4_e": "Lehet ez egy lépcsőházban felakasztva; vagy bokorra, faágra akasztva.",
+        "registrationSuccessList_5": "Amennyiben a terméket nem tudta megmosni, ezt jelezze a másik lakó felé.",
+        "registrationSuccessText_2": "Kérjük, hogy a közölt higiéniai és biztonsági tanácsainkat tartsa be az Ön és közössége érdekében!",
+        "fullName": "Teljes név",
+        "oldPassword": "Régi jelszó",
+        "saveProfile": "Módosítások mentése",
+        "logout": "Kijelentkezés",
+        "deleteProfile": "Profil törlése",
+        "myProfile": "Profilom",
+        "deleteModalTitle": "Biztos, hogy törölni akarja a profilját?",
+        "deleteModalText": "Figyelem! Minden eddig mentett adata el fog veszni, a regisztrációját a továbbiakban nem tudja használni!",
+        "cancel": "Mégse",
+        "confirmDelete": "Törlöm.",
+        "name": "Teljes név"
 }
 
