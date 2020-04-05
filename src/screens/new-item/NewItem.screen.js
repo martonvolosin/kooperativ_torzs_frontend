@@ -13,7 +13,7 @@ const CATEGORIES = [
 
 const UNITS = [
   { id: 0, name: 'Liter' },
-  { id: 1, name: 'Kilógramm' },
+  { id: 1, name: 'Kilogramm' },
   { id: 2, name: 'Darab' },
 ];
 
@@ -34,7 +34,7 @@ const NewItem = () => {
   });
 
   const onSubmit = () => {
-    console.log('asdf');
+    // TODO: handle submit btn press.
   };
 
   const handleOptionChange = key => {
@@ -50,12 +50,6 @@ const NewItem = () => {
       return modifiedOption;
     });
   };
-
-  console.log('category: ', category && category);
-  console.log('category name: ', categoryName && categoryName);
-  console.log('comment: ', comment && comment);
-  console.log('amount: ', amount && amount);
-  console.log('unit: ', unit && unit);
 
   return (
     <LoginWrapper text={t('new_item_guide')}>
