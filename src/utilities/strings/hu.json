@@ -51,6 +51,17 @@
         "cancel": "Mégse",
         "confirmDelete": "Törlöm.",
         "name": "Teljes név",
-        "guide": "Üdvözlöm a lakóközössége éléskamrájában!\nMiért jó itt lenni?\nLehetősége van kérni, felajánlani és elcserélni alapvető élelmiszereket, de segítő kezet is nyújthat másoknak.\nHogyan?\nEgyszerűen ossza meg, hogy mire van szüksége; és ha egy másik kedves lakó rendelkezik vele; az éléskamra által könnyedén meg tudják szervezni a biztonságos és higiénikus átvétel részleteit. Ebben részletes segítséget nyújtunk Önöknek a használat során.\nSegíteni és segítséget kérni nem szégyen, Mutassák meg, hogy milyen értékes az önzetlen összefogás!"
+        "guide": "Üdvözlöm a lakóközössége éléskamrájában!\nMiért jó itt lenni?\nLehetősége van kérni, felajánlani és elcserélni alapvető élelmiszereket, de segítő kezet is nyújthat másoknak.\nHogyan?\nEgyszerűen ossza meg, hogy mire van szüksége; és ha egy másik kedves lakó rendelkezik vele; az éléskamra által könnyedén meg tudják szervezni a biztonságos és higiénikus átvétel részleteit. Ebben részletes segítséget nyújtunk Önöknek a használat során.\nSegíteni és segítséget kérni nem szégyen, Mutassák meg, hogy milyen értékes az önzetlen összefogás!",
+        "new_item_guide": "Néhány tipp az oldal használatához:\n- Igyekezz a kategóriát megfelően kiválasztani. Ezek alapján keresünk neked megfelelő találatokat.\n- A megnevezés és megjegyzés mezőkben próbálj pontosan, egyértelműen fogalmazni, hogy mindenki értse amire gondoltál.\n- Ha csak segíteni akarsz más felhasználóknak, akkor kérjük kapcsold át az erre vonatkozó kapcsolót.",
+        "category": "Kategória",
+        "category_name": "Megnevezés",
+        "comment": "Megjegyzés",
+        "amount": "Mennyiség",
+        "add_item_title": "Szükséged van valamire vagy felajánlanál valamit?",
+        "offer_product": "Terméket ajánlok fel",
+        "offer_help": "Segítséget ajánlok fel",
+        "request_product": "Terméket kérek",
+        "request_help": "Segítséget kérek",
+        "category_dropdown_placeholder": "Kérjük válasszon a listából"
 }
 

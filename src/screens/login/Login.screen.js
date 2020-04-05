@@ -22,7 +22,7 @@ const Login = ({ login, accessToken }) => {
     if (accessToken) {
       history.push('/home');
     }
-  }, [accessToken]);
+  }, [accessToken, history]);
 
   const handleSubmit = e => {
     e.preventDefault();
