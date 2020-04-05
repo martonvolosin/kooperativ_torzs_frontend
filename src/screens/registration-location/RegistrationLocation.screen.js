@@ -19,13 +19,13 @@ const RegistrationLocation = ({
     if (accessToken) {
       history.push('/registration-success');
     }
-  }, [accessToken]);
+  }, [accessToken, history]);
 
   useEffect(() => {
     if (location) {
       register({ ...state, location });
     }
-  }, [location]);
+  }, [location, register, state]);
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -64,7 +64,11 @@ const RegistrationLocation = ({
     </div>
   );
 
-  return <LoginWrapper>{renderRegistrationLocationForm()}</LoginWrapper>;
+  return (
+    <LoginWrapper text={t('guide')}>
+      {renderRegistrationLocationForm()}
+    </LoginWrapper>
+  );
 };
 
 export { RegistrationLocation };

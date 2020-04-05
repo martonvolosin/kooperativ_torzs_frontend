@@ -22,7 +22,7 @@ const Login = ({ login, accessToken }) => {
     if (accessToken) {
       history.push('/home');
     }
-  }, [accessToken]);
+  }, [accessToken, history]);
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -94,7 +94,7 @@ const Login = ({ login, accessToken }) => {
     </div>
   );
 
-  return <LoginWrapper>{renderLoginForm()}</LoginWrapper>;
+  return <LoginWrapper text={t('guide')}>{renderLoginForm()}</LoginWrapper>;
 };
 
 export { Login };
